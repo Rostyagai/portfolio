@@ -12,12 +12,13 @@
   </head>
   <!-- #endregion -->
   <body>
+    <!-- #region header -->
     <header class="header">
       <div class="header__top">
-        <a href="index.html"><img src="images/logo.svg" alt="" class="logo" /></a>
+        <a href="index.html"><img src="images/logo2.svg" alt="" class="logo" /></a>
         <nav class="nav">
           <ul class="nav-list">
-            <li class="nav-item"><a href="#" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#aboutMe" class="nav-link">About me</a></li>
             <li class="nav-item"><a href="#" class="nav-link">My works</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Contact me</a></li>
@@ -29,16 +30,21 @@
         <h1 class="header__title line-up">Alexander Rostyagai</h1>
         <p class="header__descr line-up">I'm a future Junior Front-end developer</p>
         <div class="header__buttons">
-          <a href="#" class="say_hello__btn btn line-up">Say Hello <i class="fa-solid fa-paper-plane icon"></i></a>
+          <a href="mailto:rostyagai.dev@gmail.com" class="say_hello__btn btn line-up"
+            >Say Hello <i class="fa-solid fa-paper-plane icon"></i
+          ></a>
           <a href="#" class="my_works__btn btn line-up">My works<i class="fa-solid fa-arrow-turn-down icon"></i></a>
         </div>
       </div>
+      <div class="header__cta line-up">
+        <p class="header__cta_text">Follow me:</p>
+        <a href="" class="header__cta_link"><img src="images/icons/github.svg" alt="" class="cta__icon" /></a>
+        <a href="" class="header__cta_link"><img src="images/icons/linkedin.svg" alt="" class="cta__icon" /></a>
+      </div>
       <img src="images/hero-computer.webp" alt="computer" class="header__img" />
-      <!-- <p>Follow me on:</p>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a> -->
     </header>
+    <!-- #endregion -->
+    <!-- #region menu -->
     <div class="menu" id="menu">
       <div class="menu__top">
         <!-- <a href="index.html"><img src="images/logo.svg" alt="" class="logo" /></a -->
@@ -46,15 +52,24 @@
       </div>
       <nav class="menu-nav">
         <ul class="menu-nav-list">
-          <li class="menu-nav-item"><a href="#" class="menu-nav-link">About me</a></li>
+          <li class="menu-nav-item"><a href="#aboutMe" class="menu-nav-link">About me</a></li>
           <li class="menu-nav-item"><a href="#" class="menu-nav-link">My works</a></li>
           <li class="menu-nav-item"><a href="#" class="menu-nav-link">Skills</a></li>
           <li class="menu-nav-item"><a href="#" class="menu-nav-link">Contact me</a></li>
         </ul>
       </nav>
     </div>
+    <!-- #endregion -->
     <main>
-      <section class="hero_section"></section>
+      <section class="about_me">
+        <h2 class="about_me__title" id="aboutMe">About me</h2>
+        <img src="images/pfp-transparent.webp" alt="pfp" class="profile_pic" />
+        <h3 class="about_me__name">I'm Alex. &#128075;</h3>
+        <p class="about_me__descr">
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda minus aliquid placeat sequi quo nemo,
+          illum recusandae. Accusamus, voluptatibus voluptas."
+        </p>
+      </section>
     </main>
     <footer></footer>
 
